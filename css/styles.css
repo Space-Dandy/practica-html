@@ -59,7 +59,11 @@ h4{
     text-align: center;
     border: none;
 }
-/* HEADER */ 
+/* HEADER */
+.site-header{
+    background-color: #333333;
+    padding: 1rem 0 3rem 0;
+}
 .site-header.inicio{
     background-image: url('../img/header.jpg');
     background-position: center center;
@@ -236,4 +240,18 @@ h4{
 }
 .copyright{
     color: #ffffff;
+}
+
+/** PAGINAS INTERNAS **/
+/*  NOSOTROS  */
+.contenido-nosotros{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+}
+.contenido-nosotros blockquote{
+    font-weight: 900;
+    font-size: 2rem;
+    margin: 0;
+    padding: 1rem 0 3rem 0;
 }
