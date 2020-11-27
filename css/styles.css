@@ -29,6 +29,9 @@ h4{
     max-width: 120rem;
     margin: 0 auto;
 }
+.contenido-centrado{
+    max-width: 800px;
+}
 .seccion{
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -113,6 +116,7 @@ h4{
 .anuncios{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .anuncio{
     flex-basis: calc( 33.3% - 2rem );
@@ -254,4 +258,9 @@ h4{
     font-size: 2rem;
     margin: 0;
     padding: 1rem 0 3rem 0;
+}
+/* ANUNCIO */
+.resumen-propiedad{
+    display: flex;
+    justify-content: space-between;
 }
