@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienes Raices</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="contenedor  contenido-header">
+            <div class="barra">
+                <a href="/">
+                    <img src="img/logo.svg" alt="Logo principal">
+                </a>
+                <nav class="navegacion">
+                    <a href="nosotros.html">Nosotros</a>
+                    <a href="anuncios.html">Anuncios</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="contacto.html">Contacto</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- Fin Header -->
+    <h2 class="contacto">Contacto</h2>
+    <img class="imagen" src="/img/destacada3.jpg">
+    <main>
+        <div>
+                <h3 class="contacto">Llenar el formulario de contacto</h3>
+            <div class="margen-preguntas">
+                <fieldset class="Preguntas centrar">
+                    <legend><h4>Información Personal</h4></legend>
+                    <p>Nombre:</p>
+                    <input type="text" placeholder="Tu Nombre">
+                    <p>Email:</p>
+                    <input type="text" placeholder="Tu Email">
+                    <p>Teléfono:</p>
+                    <input type="text" placeholder="Tu Email">
+                    <p>Mensaje:</p>
+                    <div class="mensaje"><input type="text"></div>
+                </fieldset>
+            </div>
+            <div class="margen-preguntas">
+                <fieldset class="Preguntas centrar">
+                    <legend><h4>Información sobre propiedad</h4></legend>
+                    <p>Vende o Compra:</p>
+                    <select name="Vende o Compra">
+                        <option value="" selected>--Seleccione--</option>
+                        <option value="value 1" >Compra</option>
+                        <option value="value 2">Venta</option>
+                    </select>
+                    <p>Presupuesto: </p>
+                    <label>$</label><input type="number">
+                </fieldset>
+            </div>
+            <div class="margen-preguntas">
+                <fieldset class="Preguntas centrar">
+                   <legend><h4>Contacto</h4></legend>
+                    <p>¿Cómo desea ser contactado?</p>
+                    <label>Teléfono</label><br>
+                    <input type="radio" id="Tel" name="contactado" value="Tel"><br>
+                    <label>Correo</label><br>
+                    <input type="radio" id="Correo" name="contactado" value="Correo">
+                    <p>Si eligió teléfono, elija la fecha y hora</p>
+                    <p>Fecha: </p>
+                    <input type="date">
+                    <p>Hora:</p>
+                    <input type="time">
+                    <input type="button" value="Enviar" class="submit">
+                </fieldset>
+            </div>
+        </div>
+    </main>
+    <!-- Fin Header -->
+    <footer class="site-footer seccion">
+        <div class="contenedor contenedor-footer">
+            <nav class="navegacion">
+                <a href="nosotros.html">Nosotros</a>
+                <a href="anuncios.html">Anuncios</a>
+                <a href="blog.html">Blog</a>
+                <a href="contacto.html">Contacto</a>
+            </nav>
+            <p class="copyright">Todos Los Derechos Redervados &copy;</p>
+        </div>
+    </footer>
+</body>
+</html>
